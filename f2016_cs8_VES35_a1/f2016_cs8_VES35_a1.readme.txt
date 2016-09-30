@@ -1,0 +1,4 @@
+
+To write the following program I firstly, went over the thought process I used in the exam. Then, I tried to write the code I wrote during that and find mistakes. 
+I wanted to start by making the user talk about which system they are using. Then, I wanted two completely different python processes for the USC and metric system. I then converted the two systems into each other using the conversion table. Lastly, I created the consumption category by the “if-else” system. 
+Then, I formatted the code according to the template that was provided. I followed a systematic, step by step process for this questions where I did everything separately in parts and then I combined it all. 
