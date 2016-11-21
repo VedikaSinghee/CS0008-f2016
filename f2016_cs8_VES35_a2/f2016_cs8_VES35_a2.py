@@ -1,3 +1,8 @@
+#
+# MN: header info issing
+#
+
+# MN: what does this function do?
 def main():
 	# initalize the total variables to 0
 	totalNumLines = 0
@@ -28,6 +33,7 @@ def main():
 	printKV('Total # of lines', totalNumLines, 30)
 	printKV('Total distance run', totalDistance, 30)
 
+# MN: what does this function do?
 def processFile(fh):
 	# initializing the variables to 0
 	numLines = 0
@@ -45,6 +51,7 @@ def processFile(fh):
 
 	return (numLines, totalDistance)
 
+# MN: what does this function do?
 def printKV(key, value, klen = 0):
 	# the key is formatted as the max between the length of the key and klen
 	nLength = max(klen, len(key))
