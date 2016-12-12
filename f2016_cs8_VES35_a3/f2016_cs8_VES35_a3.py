@@ -1,3 +1,11 @@
+#
+# MN: header with user, instructor and course info is missing
+#
+# 
+# Notes:
+#
+
+
 def main():
 	# initalize the total variables to 0
 	totalNumLines = 0
@@ -52,6 +60,7 @@ def main():
 			# explicitly putting commas as output file is CSV
 			compiled.write(name + "," + str(frequencyD[name]) + "," + str(participantDirectory[name]) + "\n")
 
+# MN: description of the function?
 def processFile(fh, participantDirectory, mult, frequencyD):
 	# initializing the variables to 0
 	numLines = 0
@@ -86,6 +95,7 @@ def processFile(fh, participantDirectory, mult, frequencyD):
 
 	return (numLines, totalDistance, participantDirectory, mult, frequencyD)
 
+# MN: description of the function
 def findMaxMin(D):
 	distances = list(D.values())
 	names = list(D.keys())
@@ -97,6 +107,7 @@ def findMaxMin(D):
 	minN = names[distances.index(minD)]
 	return (maxD, maxN, minD, minN)
 
+# MN: description of the function
 def printKV(key, value, klen = 0):
 	# the key is formatted as the max between the length of the key and klen
 	nLength = max(klen, len(key))
